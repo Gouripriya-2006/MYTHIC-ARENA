@@ -1,0 +1,27 @@
+# Local environment and secret files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Node.js
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+coverage/
+**/coverage/
+*.log
+npm-debug.log*
+
+# Local/editor files
+*.local
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+
+# Playwright test artifacts
+**/test-results/
+**/playwright-report/
